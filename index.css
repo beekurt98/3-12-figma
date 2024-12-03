@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+#commentsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 85%;
+    padding: 0 0 5% 0;
+}
+.comment {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F5F6FA;
+    display: grid;
+    grid-template-columns:40px 11fr;
+    background-color: white;
+    padding: 2%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.score-div {
+    text-align: center;
+    background-color: #F5F6FA;
+    border-radius: 15px ;
+}
+
+.user-header {
+    display: flex;
+    gap: 3%;
+}
+
+.all-container {
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 75%;
+    margin: auto;
+    background-color: #F5F6FA;
+}
+
+
+#userReplyContainer {
+    height: 15%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: white;
+    padding: 2%;
+}
+
+input {
+    height: 70%;
+    width: 70%;
+    border-radius: 10px;
+    border-width: 0.5px;
+    border-color: #F5F6FA;
+    border-style: solid;
+}
+
+button {
+    width: 10%;
+    height:30%;
+    background-color: #5357B6;
+    border-radius: 10px;
+    color: white;
+    border-width: 0;
+    font-weight: bold;
+}
+
+.score {
+    color: #5357B6;
+    font-weight: bold;
+}
+
+.rating {
+    color: #F5F6FA;
+    font-weight: bold;
+    font-size: 1rem;
+}
